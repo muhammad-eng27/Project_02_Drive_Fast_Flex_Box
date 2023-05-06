@@ -196,8 +196,9 @@
 		max-width: 450px;
 	}
 	/* Hero Section */
-	/* .hero-section-text-1,
+	.hero-section-text-1,
 	.hero-section-text-2 {
-font-size: 1.8rem;
-	} */
+		font-size: 1.5rem;
+		letter-spacing: 0px;
+	}
 }
