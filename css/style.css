@@ -1,0 +1,256 @@
+/* START GENERAL CSS */
+:root {
+	--Primary-1: #004d73;
+	--Primary-2: #497ea7;
+	--Primary-3: #d3f4ff;
+	--Secondary-1: #db1415;
+	--Secondary-2: #d59182;
+	--Secondary-3: #ffe5da;
+}
+html {
+	font-family: "Roboto", sans-serif;
+	box-sizing: border-box;
+	font-size: 10px;
+	font-weight: 300;
+	color: var(--Primary-1);
+}
+*,
+*::after,
+*::before {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: inherit;
+}
+.container {
+	max-width: 1366px;
+	margin: auto;
+}
+/* END GENERAL CSS */
+/* Start Header Section */
+/* Start Logo Bar Section  */
+.logobar {
+	display: flex;
+	align-items: center;
+}
+.logobar-div {
+	flex: 1;
+	padding: 1rem 0rem;
+	display: flex;
+	/* border: 1px solid red; */
+}
+.logobar-div:nth-child(2) {
+	flex: 2;
+	justify-content: center;
+}
+/* .logobar-div:nth-child(3) {
+	flex-direction: column;
+} */
+.logobar-div:last-of-type {
+	justify-content: flex-end;
+}
+.logo-img {
+	height: 6.5rem;
+}
+.logobar-maintext {
+	font-size: 3rem;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: 500;
+}
+/* .logobar-contacttext {
+	font-size: 1.9rem;
+	letter-spacing: 1px;
+} */
+/* .logobar-contact-icon {
+	height: 2.8rem;
+	font-size: 2rem;
+	transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	-ms-transition: all 0.4s;
+	-o-transition: all 0.4s;
+}
+.logobar-contact-icon:hover {
+	transform: scale(0.9);
+	-webkit-transform: scale(0.9);
+	-moz-transform: scale(0.9);
+	-ms-transform: scale(0.9);
+	-o-transform: scale(0.9);
+} */
+.btn-main-1:link,
+.btn-main-1:visited {
+	display: inline-block;
+	font-size: 1.9rem;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 1.2rem 2.5rem;
+	background-color: var(--Secondary-1);
+	color: var(--Secondary-3);
+	letter-spacing: 2px;
+	border-radius: 3px;
+	transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	animation-name: btn-main-1;
+	animation-duration: 0.75s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	animation-direction: alternate;
+}
+.btn-main-1:hover,
+.btn-main-1:active {
+	background-color: var(--Primary-1);
+	color: var(--Primary-3);
+}
+@keyframes btn-main-1 {
+	0% {
+		transform: scale(0.9);
+		-webkit-transform: scale(0.9);
+		-moz-transform: scale(0.9);
+		-ms-transform: scale(0.9);
+		-o-transform: scale(0.9);
+	}
+	100% {
+		transform: scale(1);
+		-webkit-transform: scale(1);
+		-moz-transform: scale(1);
+		-ms-transform: scale(1);
+		-o-transform: scale(1);
+	}
+}
+/* End Logo Bar Section */
+/* Start Nav Section */
+nav {
+	background-color: var(--Primary-1);
+}
+.navbar-main-div {
+	display: flex;
+}
+.navbar-menu-button {
+	display: none;
+}
+.menu-div {
+	width: 100vw;
+	height: 100vh;
+	background-color: rgb(0, 77, 115, 0.5);
+	position: fixed;
+	right: 0;
+	top: 0;
+	z-index: 1;
+	visibility: hidden;
+	opacity: 0;
+	transition: visibility 0s, opacity 0.5s linear;
+	-webkit-transition: visibility 0s, opacity 0.5s linear;
+	-moz-transition: visibility 0s, opacity 0.5s linear;
+	-ms-transition: visibility 0s, opacity 0.5s linear;
+	-o-transition: visibility 0s, opacity 0.5s linear;
+}
+.navbar-links {
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+}
+
+.navbar-link:link,
+.navbar-link:visited {
+	font-size: 1.9rem;
+	font-weight: 400;
+	color: var(--Primary-3);
+	padding: 1.5rem;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+}
+.navbar-link:hover {
+	background-color: var(--Secondary-1);
+	color: var(--Secondary-3);
+	border-radius: 2px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	-ms-border-radius: 2px;
+	-o-border-radius: 2px;
+	transform: scale(0.9);
+	-webkit-transform: scale(0.9);
+	-moz-transform: scale(0.9);
+	-ms-transform: scale(0.9);
+	-o-transform: scale(0.9);
+}
+/* End Nav Section */
+/* End Header Section */
+/* Start Hero Section */
+.hero-section {
+	background-image: url(../images/04-hero1.jpg);
+	width: 100%;
+	height: 85vh;
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	align-items: flex-end;
+}
+.hero-section-text-1,
+.hero-section-text-2 {
+	flex: 1;
+	font-size: 3rem;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	display: flex;
+	justify-content: center;
+	padding: 1rem 0rem;
+	margin-bottom: 5rem;
+	cursor: pointer;
+}
+.hero-section-text-1 {
+	background-color: var(--Secondary-1);
+	color: var(--Secondary-3);
+	margin-left: 5rem;
+	transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	-ms-transition: all 0.4s;
+	-o-transition: all 0.4s;
+}
+.hero-section-text-1:hover {
+	background-color: var(--Primary-1);
+	color: var(--Primary-3);
+	transform: scale(0.97);
+	-webkit-transform: scale(0.97);
+	-moz-transform: scale(0.97);
+	-ms-transform: scale(0.97);
+	-o-transform: scale(0.97);
+}
+.hero-section-text-2 {
+	background-color: var(--Primary-1);
+	color: var(--Primary-3);
+	margin-right: 5rem;
+	transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	-ms-transition: all 0.4s;
+	-o-transition: all 0.4s;
+}
+.hero-section-text-2:hover {
+	background-color: var(--Secondary-1);
+	color: var(--Secondary-3);
+	transform: scale(0.97);
+	-webkit-transform: scale(0.97);
+	-moz-transform: scale(0.97);
+	-ms-transform: scale(0.97);
+	-o-transform: scale(0.97);
+}
+.spacer {
+	flex: 1;
+}
+/* End Hero Section */

@@ -1,0 +1,203 @@
+/* Most Common Used Break Points _ 1366px _ 1024px _ 768px _ 568px */
+/* Custom Break Points as per Website/Layout Needs _ 1160px _ 900px _ 625px _600px*/
+
+/*#############################################################################*/
+/*################################$(1366px)$###################################*/
+/*#############################################################################*/
+@media (max-width: 1366px) {
+	.container {
+		max-width: 1215px;
+	}
+	/* Logo Bar Section */
+}
+/*#############################################################################*/
+/*################################$(1160px)$###################################*/
+/*#############################################################################*/
+@media (max-width: 1160px) {
+	.container {
+		max-width: 1130px;
+	}
+	/* Logo Bar Section */
+	.logobar-maintext {
+		font-size: 2.8rem;
+	}
+	/* Hero Section */
+	.hero-section-text-1,
+	.hero-section-text-2 {
+		flex: 2;
+		font-size: 2.8rem;
+	}
+	.hero-section-text-1 {
+		margin-left: 3rem;
+	}
+	.hero-section-text-2 {
+		margin-right: 3rem;
+	}
+}
+/*#############################################################################*/
+/*################################$(1024px)$###################################*/
+/*#############################################################################*/
+@media (max-width: 1024px) {
+	.container {
+		max-width: 910px;
+	}
+	/* Logo Bar Section */
+	.logobar-maintext {
+		font-size: 2.6rem;
+	}
+	.btn-main-1:link,
+	.btn-main-1:visited {
+		font-size: 1.8rem;
+		padding: 1.1rem 2.3rem;
+	}
+	/* Nav Section */
+	.navbar-link:link,
+	.navbar-link:visited {
+		font-size: 1.6rem;
+		letter-spacing: 1px;
+	}
+	/* Hero Section */
+	.hero-section-text-1,
+	.hero-section-text-2 {
+		font-size: 2.5rem;
+	}
+}
+/*#############################################################################*/
+/*################################$(900px)$###################################*/
+/*#############################################################################*/
+@media (max-width: 900px) {
+	.container {
+		max-width: 800px;
+	}
+	/* Logo Bar Section */
+	.logobar-maintext {
+		font-size: 2.5rem;
+	}
+	/* Nav Section */
+	.navbar-link:link,
+	.navbar-link:visited {
+		font-size: 1.6rem;
+		letter-spacing: 0px;
+	}
+	/* Hero Section */
+	.hero-section .spacer {
+		display: none;
+	}
+}
+/*#############################################################################*/
+/*################################$(768px)$###################################*/
+/*#############################################################################*/
+@media (max-width: 768px) {
+	.container {
+		max-width: 680px;
+	}
+	/* Logo Bar Section */
+	.logobar-maintext {
+		font-size: 2.2rem;
+	}
+	.btn-main-1:link,
+	.btn-main-1:visited {
+		font-size: 1.6rem;
+		padding: 1rem 2rem;
+	}
+	/* Nav Section */
+	.navbar-links {
+		display: none;
+	}
+	.navbar-menu-button {
+		display: block;
+		flex: 1;
+		color: #d3f4ff;
+		font-size: 1.6rem;
+		padding: 1.5rem;
+		text-align: right;
+		border: 1px solid red;
+	}
+	.menu-label {
+		position: relative;
+	}
+	.menu-label::after {
+		content: "Menu";
+		display: inline-block;
+		position: absolute;
+		right: 0;
+		z-index: 10;
+	}
+	.menu-label {
+		cursor: pointer;
+	}
+	.menu-checkbox:checked + .menu-label::after {
+		content: "X";
+		font-size: 1.8rem;
+		position: fixed;
+		right: 2rem;
+	}
+	.menu-checkbox:checked ~ .menu-div {
+		visibility: visible;
+		opacity: 1;
+	}
+	.menu-div {
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+		justify-content: center;
+	}
+	/* Hero Section */
+	.hero-section-text-1 {
+		margin-left: 0rem;
+	}
+	.hero-section-text-2 {
+		margin-right: 0rem;
+	}
+}
+/*#############################################################################*/
+/*################################$(625px)$###################################*/
+/*#############################################################################*/
+@media (max-width: 625px) {
+	.container {
+		max-width: 555px;
+	}
+	/* Logo Bar Section */
+	.logobar-div:nth-child(2) {
+		display: none;
+	}
+	/* Hero Section */
+	.hero-section-text-1,
+	.hero-section-text-2 {
+		font-size: 2rem;
+	}
+}
+/*#############################################################################*/
+/*################################$(600px)$###################################*/
+/*#############################################################################*/
+@media (max-width: 600px) {
+	.container {
+		max-width: 535px;
+	}
+}
+/*#############################################################################*/
+/*################################$(568px)$###################################*/
+/*#############################################################################*/
+@media (max-width: 568px) {
+	.container {
+		max-width: 505px;
+	}
+	/* Hero Section */
+	.hero-section-text-1,
+	.hero-section-text-2 {
+		font-size: 1.8rem;
+	}
+}
+/*#############################################################################*/
+/*################################$(500px)$###################################*/
+/*#############################################################################*/
+@media (max-width: 500px) {
+	.container {
+		max-width: 450px;
+	}
+	/* Hero Section */
+	/* .hero-section-text-1,
+	.hero-section-text-2 {
+font-size: 1.8rem;
+	} */
+}
