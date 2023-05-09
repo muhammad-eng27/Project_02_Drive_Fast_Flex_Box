@@ -465,6 +465,12 @@
 			-o-transform: translateX(7rem) scale(1);
 		}
 	}
+	.enrollment-card:nth-of-type(3) {
+		padding: 0rem 4rem 3rem 4rem;
+	}
+	.enrollment-card:nth-of-type(4) {
+		padding: 0rem 4rem 3rem 4rem;
+	}
 	.enrollment-section-heading {
 		font-size: 2.5rem;
 		margin: 1rem 1rem;
