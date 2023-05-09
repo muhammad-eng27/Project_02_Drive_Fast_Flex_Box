@@ -627,7 +627,7 @@ nav {
 	color: var(--Primary-1);
 	flex: 1;
 }
-.textinput::placeholder{
+.textinput::placeholder {
 	color: var(--Primary-1);
 }
 option {

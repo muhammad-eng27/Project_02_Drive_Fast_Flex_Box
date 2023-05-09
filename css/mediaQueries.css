@@ -476,18 +476,28 @@
 		margin: 1rem 1rem;
 	}
 	.enrollment-card .card-heading {
-		font-size: 2.3rem;
+		font-size: 1.8rem;
 	}
 	.card-icon-img {
 		height: 7rem;
 	}
 	.card-text {
-		font-size: 2rem;
+		font-size: 1.7rem;
 	}
 	/* Makes Us Different Section */
 	.section-different-heading {
 		font-size: 2rem;
 		margin: 1rem 0rem;
+	}
+	.icons-card .card-heading {
+		font-size: 2rem;
+	}
+	/* Key Numbers Section */
+	.numbertext {
+		font-size: 8rem;
+	}
+	.number-heading {
+		font-size: 2rem;
 	}
 	/* Quote Section */
 	.section-quote {
@@ -520,11 +530,14 @@
 		font-size: 3rem;
 	}
 	.package-text {
-		font-size: 2rem;
+		font-size: 1.9rem;
+	}
+	.package-heading {
+		font-size: 2.4rem;
 	}
 	/* Contact Us Form Section */
 	.form-div {
-		padding: 0rem;
+		padding: 0rem 1rem 0rem 1rem;
 	}
 	/* Footer Section */
 	.footer-icon-text {
