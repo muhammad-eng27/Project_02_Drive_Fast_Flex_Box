@@ -96,6 +96,7 @@ html {
 	animation-iteration-count: infinite;
 	animation-timing-function: linear;
 	animation-direction: alternate;
+	border: 1px solid transparent;
 }
 .btn-main-1:hover,
 .btn-main-1:active,
@@ -103,6 +104,7 @@ html {
 .btn-main-3:active {
 	background-color: var(--Primary-1);
 	color: var(--Primary-3);
+	border: 1px solid var(--Primary-2);
 }
 @keyframes btn-main {
 	0% {
@@ -360,10 +362,12 @@ nav {
 	-moz-transition: all 0.3s;
 	-ms-transition: all 0.3s;
 	-o-transition: all 0.3s;
-		border: 1px solid transparent;
+	border: 1px solid transparent;
 }
 .btn-main-2:hover,
-.btn-main-2:active {
+.btn-main-2:active,
+.btn-main-4:hover,
+.btn-main-4:active {
 	background-color: var(--Primary-1);
 	color: var(--Primary-3);
 	border: 1px solid var(--Primary-2);
@@ -451,11 +455,7 @@ nav {
 	letter-spacing: 1px;
 	margin-bottom: 2rem;
 }
-.btn-main-3:hover,
-.btn-main-3:active {
-	background-color: var(--Secondary-3);
-	color: var(--Secondary-1);
-}
+
 /* End Quote Section */
 /* Start Packages Section */
 .section-packages {
@@ -596,7 +596,7 @@ nav {
 }
 .form-div {
 	padding: 2rem;
-	width: 45%;
+	width: 75%;
 	margin: auto;
 }
 .input {
@@ -626,6 +626,9 @@ nav {
 	-o-border-radius: 5px;
 	color: var(--Primary-1);
 	flex: 1;
+}
+option {
+	background-color: var(--Primary-3);
 }
 .textinput:focus {
 	outline: none;

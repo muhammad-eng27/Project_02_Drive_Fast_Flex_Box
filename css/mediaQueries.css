@@ -41,6 +41,10 @@
 	.packages-card:not(:first-of-type) {
 		margin-left: 1rem;
 	}
+	/* Footer Section */
+	.footer-social-link {
+		margin-left: 2.5rem;
+	}
 }
 /*#############################################################################*/
 /*################################$(1024px)$###################################*/
@@ -86,6 +90,16 @@
 				rgba(0, 77, 115, 0.7)
 			),
 			url(../images/10-choice.jpg);
+	}
+	/* Footer Section */
+	.footer-mail-icon {
+		font-size: 3rem;
+	}
+	.footer-social-link {
+		margin-left: 2rem;
+	}
+	.footer-contact-text {
+		font-size: 1.6rem;
 	}
 }
 /*#############################################################################*/
@@ -133,7 +147,6 @@
 	.enrollment-card:nth-of-type(4) {
 		padding: 0rem 5rem 3rem 5rem;
 	}
-
 	.enrollment-card .card-heading {
 		font-size: 2.5rem;
 		font-weight: 500;
@@ -149,7 +162,7 @@
 	}
 	/* Makes Us Different Section */
 	.section-different {
-		padding: 5rem 0rem 10rem 0rem;
+		padding: 2rem 0rem 10rem 0rem;
 	}
 	.section-different-heading {
 		font-size: 3rem;
@@ -165,6 +178,9 @@
 		margin-top: 3rem;
 	}
 	/* Key Numbers Section */
+	.section-numbers {
+		padding: 2rem 0rem 10rem 0rem;
+	}
 	.numbers-div {
 		flex-direction: column;
 	}
@@ -178,18 +194,48 @@
 		font-size: 3rem;
 	}
 	/* Packages Section */
-	.package-text {
-		font-size: 2rem;
-	}
 	.packages-div {
 		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.packages-car-img {
+		width: 30rem;
 	}
 	.packages-card:not(:first-of-type) {
 		margin-left: 0rem;
 		margin-top: 5rem;
 	}
+	.packages-card {
+		padding: 0rem 0rem 3rem 0rem;
+		width: 90%;
+	}
+	.package-heading {
+		font-size: 2.5rem;
+		letter-spacing: 2px;
+	}
+	.package-text {
+		font-size: 2.2rem;
+	}
 	.package-unique-text {
 		font-weight: 400;
+	}
+	/* Contact Us Form Section */
+	.section-contact {
+		padding: 2rem 0rem 10rem 0rem;
+	}
+	.form-div {
+		width: 90%;
+	}
+	/* Footer Section */
+	.footer-mail-icon {
+		font-size: 2rem;
+	}
+	.footer-social-link {
+		margin-left: 1.5rem;
+	}
+	.footer-contact-text {
+		font-size: 1.5rem;
 	}
 }
 /*#############################################################################*/
@@ -285,6 +331,14 @@
 	.section-quote {
 		padding: 12rem 0rem 12rem 5rem;
 	}
+	/* Footer Section */
+	.footer-contact-text {
+		font-size: 1.7rem;
+	}
+	.footer-contact-text:nth-of-type(1),
+	.footer-contact-text:nth-of-type(3) {
+		display: none;
+	}
 }
 /*#############################################################################*/
 /*################################$(625px)$###################################*/
@@ -310,12 +364,19 @@
 	.logo-car-img {
 		width: 25rem;
 	}
-	.enrollment-section-heading{
+	.enrollment-section-heading {
 		font-size: 3.5rem;
 	}
 	/* Makes Us Different Section */
 	.section-different-heading {
 		font-size: 2.8rem;
+	}
+	/* Packages Section */
+	.packages-car-img {
+		width: 25rem;
+	}
+	.packages-heading {
+		font-size: 3.5rem;
 	}
 }
 /*#############################################################################*/
@@ -344,6 +405,13 @@
 	.section-different-heading {
 		font-size: 2.6rem;
 	}
+	/* Contact Us Form Section */
+	.form-div {
+		width: 95%;
+	}
+	.footer-icon-text {
+		font-size: 1.2rem;
+	}
 }
 /*#############################################################################*/
 /*################################$(500px)$###################################*/
@@ -371,13 +439,22 @@
 	.logo-car-img {
 		width: 20rem;
 	}
-	.enrollment-section-heading{
+	.enrollment-section-heading {
 		font-size: 3rem;
+	}
+	.enrollment-card .card-heading {
+		font-size: 2.3rem;
+	}
+	.card-icon-img {
+		height: 7rem;
+	}
+	.card-text {
+		font-size: 2rem;
 	}
 	/* Makes Us Different Section */
 	.section-different-heading {
-		font-size: 2.3rem;
-		margin: 1rem 0rem;
+		font-size: 2.4rem;
+		margin: 1rem 1rem;
 	}
 	/* Quote Section */
 	.section-quote {
@@ -385,5 +462,22 @@
 	}
 	.quote-heading {
 		letter-spacing: 1px;
+	}
+	/* Packages Section */
+	.packages-car-img {
+		width: 20rem;
+	}
+	.packages-heading {
+		font-size: 3rem;
+	}
+	.package-text {
+		font-size: 2rem;
+	}
+	/* Contact Us Form Section */
+	.form-div {
+		width: 100%;
+	}
+	.footer-icon-text {
+		font-size: 1.1rem;
 	}
 }
