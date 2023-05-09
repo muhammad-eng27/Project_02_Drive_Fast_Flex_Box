@@ -13,6 +13,7 @@
 	.card-heading {
 		font-size: 2rem;
 	}
+	/* Contact Us Form Section */
 	.form-div {
 		width: 70%;
 	}
@@ -94,7 +95,8 @@
 			),
 			url(../images/10-choice.jpg);
 	}
-		.form-div {
+	/* Contact Us Form Section */
+	.form-div {
 		width: 90%;
 	}
 	/* Footer Section */
@@ -334,7 +336,8 @@
 	.section-quote {
 		padding: 12rem 0rem 12rem 5rem;
 	}
-		.form-div {
+	/* Contact Us Form Section */
+	.form-div {
 		width: 80%;
 	}
 	/* Footer Section */
@@ -393,7 +396,8 @@
 	.container {
 		max-width: 535px;
 	}
-		.form-div {
+	/* Contact Us Form Section */
+	.form-div {
 		width: 100%;
 	}
 }
@@ -516,10 +520,11 @@
 	.form-div {
 		padding: 0rem;
 	}
+	/* Footer Section */
 	.footer-icon-text {
 		font-size: 1.1rem;
 	}
 	.footer-contact-text:nth-of-type(2) {
-		font-size: 1.5rem;
+		font-size: 1.3rem;
 	}
 }
