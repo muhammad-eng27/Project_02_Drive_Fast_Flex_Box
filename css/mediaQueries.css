@@ -224,9 +224,6 @@
 	.section-contact {
 		padding: 2rem 0rem 10rem 0rem;
 	}
-	.form-div {
-		width: 90%;
-	}
 	/* Footer Section */
 	.footer-mail-icon {
 		font-size: 2rem;
@@ -406,9 +403,6 @@
 		font-size: 2.6rem;
 	}
 	/* Contact Us Form Section */
-	.form-div {
-		width: 95%;
-	}
 	.footer-icon-text {
 		font-size: 1.2rem;
 	}
@@ -508,7 +502,7 @@
 	}
 	/* Contact Us Form Section */
 	.form-div {
-		width: 100%;
+		padding: 0rem;
 	}
 	.footer-icon-text {
 		font-size: 1.1rem;
