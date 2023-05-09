@@ -596,9 +596,8 @@ nav {
 }
 .form-div {
 	padding: 2rem;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
+	width: 45%;
+	margin: auto;
 }
 .input {
 	display: flex;

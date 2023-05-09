@@ -13,6 +13,9 @@
 	.card-heading {
 		font-size: 2rem;
 	}
+	.form-div {
+		width: 70%;
+	}
 }
 /*#############################################################################*/
 /*################################$(1160px)$###################################*/
@@ -90,6 +93,9 @@
 				rgba(0, 77, 115, 0.7)
 			),
 			url(../images/10-choice.jpg);
+	}
+		.form-div {
+		width: 90%;
 	}
 	/* Footer Section */
 	.footer-mail-icon {
@@ -328,6 +334,9 @@
 	.section-quote {
 		padding: 12rem 0rem 12rem 5rem;
 	}
+		.form-div {
+		width: 80%;
+	}
 	/* Footer Section */
 	.footer-contact-text {
 		font-size: 1.7rem;
@@ -383,6 +392,9 @@
 	/* Container */
 	.container {
 		max-width: 535px;
+	}
+		.form-div {
+		width: 100%;
 	}
 }
 /*#############################################################################*/
