@@ -730,11 +730,6 @@ footer {
 	display: flex;
 	justify-content: flex-end;
 }
-.copyright {
-	text-align: center;
-	color: var(--Primary-3);
-	font-size: 1.4rem;
-}
 .footer-social-icon {
 	text-decoration: none;
 	color: var(--Primary-3);

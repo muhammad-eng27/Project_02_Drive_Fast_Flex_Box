@@ -439,8 +439,25 @@
 	.logo-car-img {
 		width: 20rem;
 	}
+	@keyframes car {
+		0% {
+			transform: translateX(-8rem) scale(0.9);
+			-webkit-transform: translateX(-8rem) scale(0.9);
+			-moz-transform: translateX(-8rem) scale(0.9);
+			-ms-transform: translateX(-8rem) scale(0.9);
+			-o-transform: translateX(-8rem) scale(0.9);
+		}
+		100% {
+			transform: translateX(7rem) scale(1);
+			-webkit-transform: translateX(7rem) scale(1);
+			-moz-transform: translateX(7rem) scale(1);
+			-ms-transform: translateX(7rem) scale(1);
+			-o-transform: translateX(7rem) scale(1);
+		}
+	}
 	.enrollment-section-heading {
-		font-size: 3rem;
+		font-size: 2.5rem;
+		margin: 1rem 1rem;
 	}
 	.enrollment-card .card-heading {
 		font-size: 2.3rem;
@@ -453,8 +470,8 @@
 	}
 	/* Makes Us Different Section */
 	.section-different-heading {
-		font-size: 2.4rem;
-		margin: 1rem 1rem;
+		font-size: 2rem;
+		margin: 1rem 0.5rem;
 	}
 	/* Quote Section */
 	.section-quote {
@@ -466,6 +483,22 @@
 	/* Packages Section */
 	.packages-car-img {
 		width: 20rem;
+	}
+	@keyframes packages-car {
+		0% {
+			transform: translateX(-4rem) scale(0.9);
+			-webkit-transform: translateX(-4rem) scale(0.9);
+			-moz-transform: translateX(-4rem) scale(0.9);
+			-ms-transform: translateX(-4rem) scale(0.9);
+			-o-transform: translateX(-4rem) scale(0.9);
+		}
+		100% {
+			transform: translateX(3rem) scale(1);
+			-webkit-transform: translateX(3rem) scale(1);
+			-moz-transform: translateX(3rem) scale(1);
+			-ms-transform: translateX(3rem) scale(1);
+			-o-transform: translateX(3rem) scale(1);
+		}
 	}
 	.packages-heading {
 		font-size: 3rem;
@@ -479,5 +512,8 @@
 	}
 	.footer-icon-text {
 		font-size: 1.1rem;
+	}
+	.footer-contact-text:nth-of-type(2) {
+		font-size: 1.5rem;
 	}
 }
