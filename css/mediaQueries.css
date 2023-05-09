@@ -432,7 +432,7 @@
 	/* Hero Section */
 	.hero-section-text-1,
 	.hero-section-text-2 {
-		font-size: 1.8rem;
+		font-size: 1.6rem;
 		letter-spacing: 1px;
 	}
 	/* Easy Enrollment Section */
@@ -471,7 +471,7 @@
 	/* Makes Us Different Section */
 	.section-different-heading {
 		font-size: 2rem;
-		margin: 1rem 0.5rem;
+		margin: 1rem 0rem;
 	}
 	/* Quote Section */
 	.section-quote {
